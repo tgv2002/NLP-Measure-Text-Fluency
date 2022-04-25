@@ -39,10 +39,10 @@ def is_valid_string(attribute_value):
 def initialize_models():
     with torch.no_grad():
         st.session_state.tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
-        st.session_state.lm = BertForMaskedLM.from_pretrained('./models/BERT/')
+        st.session_state.lm = BertForMaskedLM.from_pretrained('./app_models/BERT/')
         st.session_state.lm.eval()
-    st.session_state.classifier = joblib.load('./models/rf_model.joblib')
-    with open('./models/VOCAB.json', 'r') as f:
+    st.session_state.classifier = joblib.load('./app_models/rf_model.joblib')
+    with open('./app_models/VOCAB.json', 'r') as f:
         st.session_state.VOCAB = json.load(f)
         st.session_state.TOTAL = sum(st.session_state.VOCAB.values())
 
