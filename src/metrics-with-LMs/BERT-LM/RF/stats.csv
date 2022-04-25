@@ -1,0 +1,7 @@
+Title,Accuracy,Recall,Precision,F1-score
+Train (None),0.995,0.956,0.991,0.973
+Test (None),0.86,0.333,0.331,0.317
+Train (Random Over),0.996,0.996,0.996,0.996
+Test (Random Over),0.834,0.334,0.333,0.328
+Train (SMOTE),0.998,0.998,0.998,0.998
+Test (SMOTE),0.795,0.35,0.344,0.341
