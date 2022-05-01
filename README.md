@@ -11,6 +11,11 @@
 
 This repository consists of the entire implementation of baselines, experiments and application which were implemented as part of a project of 'Introduction to NLP' course. It is regarding <b>measuring text fluency</b> and explores various features, language model architectures and classifiers, for the multi-label classification of text into labels such as - Fluent / Not Fluent / Neutral.
 
+## Data
+
+* The train, test and validation datasets which were used for the project are uploaded [here](https://drive.google.com/drive/folders/1evD24N9AAh7k3GNfJBhxVNrKTBy7GToi?usp=sharing).
+* Note that this folder should be downloaded as a whole, and placed in the same folder which contains `src` folder, before any execution of below steps.
+
 ## Model checkpoints
 
 * All the model checkpoints which were saved are uploaded [here](https://drive.google.com/drive/folders/16c04yf95_Ael0iXFmQuQKdhQm97SWWHE?usp=sharing). 
