@@ -9,8 +9,8 @@
 
 ## Description 
 
-This repository consists of the entire implementation of baselines, experiments and application which were implemented as part of a project of 'Introduction to NLP' course. It is regarding <b>measuring text fluency</b> and explores various features, language model architectures and classifiers, for the multi-label classification of text into labels such as - Fluent / Not Fluent / Neutral. 
-The project report can be found [here](https://docs.google.com/presentation/d/1_s8AMRDGYIeEcpXVI1cFUyaCZPWC5tmem1v51or91w4/edit?usp=sharing). 
+This repository consists of the entire implementation of baselines, experiments and application which were implemented as part of a project of 'Introduction to NLP' course. It is regarding <b>measuring text fluency</b> and explores various features, language model architectures and classifiers, for the multi-label classification of text into labels such as - Fluent / Not Fluent / Neutral.  
+The project report can be found [here](https://docs.google.com/presentation/d/1_s8AMRDGYIeEcpXVI1cFUyaCZPWC5tmem1v51or91w4/edit?usp=sharing).  
 
 ## Data
 
